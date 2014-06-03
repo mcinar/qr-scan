@@ -2,7 +2,15 @@
 @import '../../plugins/neat/neat'
 @import '../../plugins/bitters/bitters'
 
-$background: #000
+$primary_color: #e71e56
+$secondary_color: #7d054b
+$text_color: #efefef
 
 body
-  background-color: $background
+  background-color: $primary_color
+  color: $text_color
+  font-family: $helvetica
+  font-size: em(15px, 16px)
+
+.container
+  +outer-container
