@@ -1,6 +1,5 @@
 @import '../../plugins/bourbon/bourbon'
 @import '../../plugins/neat/neat'
-@import '../../plugins/bitters/bitters'
 
 $primary_color: #e71e56
 $secondary_color: #7d054b
@@ -14,11 +13,27 @@ body
 
 .container
   +outer-container
-  .app
-    @include span-columns(6)
-    @include shift(3)
 
+.app
+  width: 50%
+  margin-top: 50px
+  margin-left: auto
+  margin-right: auto
+  .logo
+    width: 60%
+    margin-left: auto
+    margin-right: auto
+  .init
+    width: 100%
+  .button
+    width: 75%
+    margin: 0 auto
     .connect
+      +size(400px 65px)
       border: none !important
+      border-radius: 10px
       outline: none !important
+      font-size: em(36px, 16px)
+      color: $primary_color
+      text-align: center
       background-color: $text_color
