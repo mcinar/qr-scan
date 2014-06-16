@@ -10,11 +10,18 @@
     <script src="assets/js/jquery.js"></script>
     <script src='assets/js/html5-qrcode.min.js'></script>
     <script src="assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.again').click(function(){
+          $('.camera').css('display', 'block');
+        });
+      });
+    </script>
   </head>
   <body>
-    <div class='app'>
+    <div class='app camera'>
       <div id="reader">
-        <video id="html5_qrcode_video" width="50%" height="auto"></video>
+        <video id="html5_qrcode_video" width="650px" height="auto"></video>
         <canvas id="qr-canvas" width="298px" height="248px" style="display:none;"></canvas>
         <div id="read_error"></div>
         <div id="vid_error"></div>
