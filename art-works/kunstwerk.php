@@ -27,7 +27,7 @@
       <div class='app'>
         <div class='nav-bar'>
           <a href='../index.php'><img src='../assets/img/scan-logo.png'></a>
-          <button class='connect again'><a href='#'>Again</a></button>
+          <button class='connect again'><a href='../scan.php'>Again</a></button>
         </div>
         <div class='wrapper'>
           <div class='info-wrap'>
