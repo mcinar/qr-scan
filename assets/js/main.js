@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#reader').html5_qrcode(function(data){
-      $('#read').html(data);
+      $('#data').html('<object type="text/html" data="'+data+'" width="100%" height="100%" />');
+      $('.app').css('display', 'none');
     },
     function(error){
       $('#read_error').html(error);

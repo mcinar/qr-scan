@@ -1,3 +1,4 @@
+ <?php header('Access-Control-Allow-Origin: *'); ?>
  <!doctype html>
 <html>
   <head>
@@ -11,14 +12,14 @@
     <script src="assets/js/main.js"></script>
   </head>
   <body>
-    <div class='container center'>
+    <div class='app'>
       <div id="reader">
-        <video id="html5_qrcode_video" width="300px" height="250px"></video>
+        <video id="html5_qrcode_video" width="50%" height="auto"></video>
         <canvas id="qr-canvas" width="298px" height="248px" style="display:none;"></canvas>
+        <div id="read_error"></div>
+        <div id="vid_error"></div>
       </div>
-      <div id="read"></div>
-      <div id="read_error"></div>
-      <div id="vid_error"></div>
     </div>
+    <div id="data"></div>
   </body>
 </html>
