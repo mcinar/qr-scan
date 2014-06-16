@@ -24,6 +24,15 @@ hr
   margin: 1.5em 0
   padding: 0
 
+.nav-bar:after,
+.wrapper:after
+  content: " "
+  display: block
+  clear: both
+  visibility: hidden
+  line-height: 0
+  height: 0
+
 .app
   margin: 2em 0
   text-align: center
@@ -39,7 +48,8 @@ hr
     font-weight: 400
     color: $primary_color
     text-align: center
-    background-color: $text_color
+    background-color: #fff
+
   .c-info
     font-size: 10px
     font-weight: 400
@@ -57,3 +67,56 @@ hr
 
 #reader video:nth-child(3)
   display: none !important
+
+/* ART PAGES */
+#data
+  height: 100%
+
+.container
+  width: 48em
+  margin: 0 auto
+.nav-bar 
+  img
+    width: 200px
+    float: left
+  .again
+    width: 200px
+    height: 67px
+    border-radius: 8px
+    background-color: #fff
+    float: right
+    outline: none
+.extra-content,
+.info-wrap
+  text-align: left
+  p
+    font-size: 13px
+    margin-top: 10px
+
+  h1:first-child
+    margin-top: 20px
+    font-size: 26px
+
+.info-wrap,
+.slider
+  float: left
+  width: 48%
+
+.slider
+  margin-top: 20px
+  text-align: left
+  font-size: 13px
+  margin-left: 30px
+  h1
+    font-size: 26px
+
+
+/* SLIDER */
+#owl-demo .item img
+  display: block
+  width: 100%
+  height: auto
+  margin-top: 20px
+  background-color: $secondary_color
+  outline: none
+
