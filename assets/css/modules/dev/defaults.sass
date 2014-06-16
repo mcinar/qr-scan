@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700)
+
 $primary_color: #e71e56
 $secondary_color: #7d054b
 $text_color: #efefef
@@ -9,17 +11,25 @@ $text_color: #efefef
 body
   background-color: $primary_color
   color: $text_color
-  font-family: 'Helvetica'
+  font-family: 'Open Sans', sans-serif
+  -webkit-font-smoothing: antialiased
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004)
 a
   color: $primary_color
   text-decoration: none
-
-.container
-  text-align: center
+hr
+  display: block
+  height: 1px
+  border: 0 
+  border-top: 1px solid $secondary_color
+  margin: 1.5em 0
+  padding: 0
 
 .app
+  margin: 2em 0
+  text-align: center
   .qr-code
-    margin: 50px 0
+    margin: 3em 0
   .connect
     height: 85px
     width: 400px
@@ -30,5 +40,19 @@ a
     color: $primary_color
     text-align: center
     background-color: $text_color
+  .c-info
+    font-size: 10px
+    font-weight: 400
+    color: #afafaf
+    margin: .3em 0
+  .u-info
+    p
+      font-size: 13px
+      color: #afafaf
+    a
+      color: #afafaf
+      display: inline-block
+      border-bottom: 1px solid #afafaf
+      padding-bottom: .5px
 #reader video:nth-child(3)
   display: none
