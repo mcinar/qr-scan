@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>QR-Scanner</title>
     <link rel="stylesheet" href="assets/css/modules/build/defaults.min.css">
-  </head>
-  <body>
-    <div id="reader" width='100%' height='100%'></div>
-    <div id="read"></div>
-    <div id="read_error"></div>
-    <div id="vid_error"></div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
     <script src='assets/js/html5-qrcode.min.js'></script>
     <script src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div class='container center'>
+      <div id="reader">
+        <video id="html5_qrcode_video" width="300px" height="250px"></video>
+        <canvas id="qr-canvas" width="298px" height="248px" style="display:none;"></canvas>
+      </div>
+      <div id="read"></div>
+      <div id="read_error"></div>
+      <div id="vid_error"></div>
+    </div>
   </body>
 </html>
