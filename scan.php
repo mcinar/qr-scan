@@ -20,15 +20,6 @@
         <div id="vid_error"></div>
       </div>
     </div>
-    <!-- <div class='holder'>
-      <div class='container'>
-        <div class='app'>
-          <div class='nav-bar'>
-            <button class='connect again'><a href='#'>Again</a></button>
-          </div>
-        </div>
-      </div> -->
-      <div id="data"></div>
-    <!-- </div> -->
+    <div id="data"></div>
   </body>
 </html>
