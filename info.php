@@ -7,7 +7,7 @@
     <title>QR-Scanner</title>
     <link rel="stylesheet" href="assets/css/modules/build/defaults.min.css">
   </head>
-  <body>
+  <body class='animate'>
     <div class='app'>
     </div>
   </body>

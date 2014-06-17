@@ -37,7 +37,7 @@ hr
   margin: 2em 0
   text-align: center
   .qr-code
-    margin: 3em 0
+    margin: 3em 0 0
   .connect
     height: 85px
     width: 400px
@@ -60,10 +60,20 @@ hr
       font-size: 13px
       color: #afafaf
     a
-      color: #afafaf
+      color: #666
       display: inline-block
-      border-bottom: 1px solid #afafaf
-      padding-bottom: .5px
+      padding: 0 3px .5px 3px
+      background-color: #fff
+      border-radius: 3px
+      font-weight: 600
+  ul
+    width: 355px
+    margin: 1em auto
+    list-style: none
+    li
+      text-align: left
+      font-size: 11px
+      color: $text_color
 
 #reader video:nth-child(3)
   display: none !important
@@ -145,4 +155,37 @@ blockquote
   background: #7d054b !important
   text-align: left !important
 
+/* ANIMATIONS */
+@-webkit-keyframes fadeIn
+  0%
+    opacity: 0
+    z-index: 99999
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+  100%
+    opacity: 1
+    z-index: 99999
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+@keyframes fadeIn
+  0%
+    opacity: 0
+    z-index: 99999
+    -webkit-transform: translateX(0)
+    -ms-transform: translateX(0)
+    transform: translateX(0)
+  100%
+    opacity: 1
+    z-index: 99999
+    -webkit-transform: translateX(0)
+    -ms-transform: translateX(0)
+    transform: translateX(0)
+
+.animate
+  -webkit-animation: fadeIn 600ms 100ms both cubic-bezier(0.645, 0.045, 0.355, 1) normal
+  -moz-animation: fadeIn 600ms 100ms both cubic-bezier(0.645, 0.045, 0.355, 1) normal
+  -ms-animation: fadeIn 600ms 100ms both cubic-bezier(0.645, 0.045, 0.355, 1) normal
+  -o-animation: fadeIn 600ms 100ms both cubic-bezier(0.645, 0.045, 0.355, 1) normal
+  animation: fadeIn 600ms 100ms both cubic-bezier(0.645, 0.045, 0.355, 1) normal
 

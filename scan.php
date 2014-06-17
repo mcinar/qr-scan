@@ -12,14 +12,14 @@
     <script src="assets/js/main.js"></script>
   </head>
   <body>
-    <div class='app camera'>
+    <div class='app camera animate'>
       <div id="reader">
-        <video id="html5_qrcode_video" width="650px" height="auto"></video>
+        <video id="html5_qrcode_video" class='animate' width="650px" height="auto"></video>
         <canvas id="qr-canvas" width="298px" height="248px" style="display:none;"></canvas>
         <div id="read_error"></div>
         <div id="vid_error"></div>
       </div>
     </div>
-    <div id="data"></div>
+    <div id="data" class='animate'></div>
   </body>
 </html>
