@@ -70,10 +70,17 @@ hr
     width: 355px
     margin: 1em auto
     list-style: none
+    counter-reset: step
     li
       text-align: left
       font-size: 11px
       color: $text_color
+      &:before
+        margin: 0
+        padding: 0 4px
+        content: counter(step)
+        counter-increment: step
+
 
 #reader video:nth-child(3)
   display: none !important

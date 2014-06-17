@@ -12,9 +12,9 @@
 			<img src='assets/img/scan-logo.png'><br>
 			<img src='assets/img/qr-code.png' class='qr-code'><br>
 			<ul>
-				<li>1) Touch on the connect button</li>
-				<li>2) Scan the Qr-code</li>
-				<li>3) You will get the information</li>
+				<li>Touch on the connect button</li>
+				<li>Scan the Qr-code</li>
+				<li>You will get the information</li>
 			</ul>
 			<button class='connect'><a href='scan.php'>Connect</a></button><br>
 			<p class='c-info'>When you touch on the connect button your device will be connected to the camera.</p>
