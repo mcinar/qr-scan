@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-		<div class='cam'>
+		<div class='cam animate'>
 			<div class='app camera animate'>
 	      <div id="reader">
 	        <video id="html5_qrcode_video" class='animate' width="650px" height="auto"></video>
@@ -46,7 +46,7 @@
 	    </div>
 	    <div id="data" class='animate'></div>
 	  </div>
-	  <div class='info'>
+	  <div class='info animate'>
 	  	<div class='container'>
       <div class='app'>
         <div class='nav-bar'>
