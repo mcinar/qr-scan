@@ -50,8 +50,8 @@
 	  	<div class='container'>
       <div class='app'>
         <div class='nav-bar'>
-          <a href='index.php'><img src='assets/img/scan-logo.png'></a>
-          <button class='back info-button'><a href='index.php'>Back</a></button>
+          <a href='index.html'><img src='assets/img/scan-logo.png'></a>
+          <button class='back info-button'><a href='index.html'>Back</a></button>
         </div>
         <div class='wrapper'>
           <div class='info-wrap'>
